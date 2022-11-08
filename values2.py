@@ -12,7 +12,5 @@ listD = []
 max = []
 min = []
 
-if max or min in listD:
-          print (max + min+ 'are in listD') 
-else:
-   print([])
+if listD == [] :
+    print("none")
